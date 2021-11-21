@@ -1,0 +1,208 @@
+*{
+    margin: 0 auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #161a1d;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+.topnav .login-container {
+    float: right;
+} 
+.topnav input[type=text], .topnav input[type=password] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+} 
+.topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+} 
+.topnav .login-container button:hover {
+    background: #ccc;
+}
+.search input[type=text] {
+    width: 130px;
+    height: 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;    
+}
+.search{
+    background-color: gray;
+}
+.search input[type=text]:focus {
+    width: 100%;
+}
+.tab ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: #161a1d;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+}
+.tab ul li{
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.tab ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+}
+.tab ul li a:hover{
+    background-color: red;
+}
+.tab .active{
+    background-color: red;
+}
+.welcome{
+    background-image: url(image/ggg.jpg);
+    height: 670px;
+    width: 100%;
+}
+.welcome h1{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+.welcome h2{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 460px;
+}
+.intro{
+    background-color: #161a1d;
+    height: 200px;
+}
+.intro h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    padding-top: 40px;
+}
+.intro p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    padding-top: 15px;
+}
+.mice , .key{
+    float: left;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 500px;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.mice{
+    background-image: url(image/mouse.jpg);
+    height: 500px;
+}
+.key{
+    background-image: url(image/keyboard.jpg);
+    height: 500px;  
+}
+.mice:hover , .key:hover{
+    color: red;
+}
+.aud , .desk{
+    float: left;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 500px;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.aud{
+    background-image: url(image/audio.jpg);
+    height: 500px;
+}
+.desk{
+    background-image: url(image/desk.jpg);
+    height: 500px;  
+}
+.aud:hover , .desk:hover{
+    color: red;
+}
+.str , .con{
+    float: left;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 500px;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.str{
+    background-image: url(image/streaming.jpg);
+    height: 500px;
+}
+.con{
+    background-image: url(image/console.jpg);
+    height: 500px;  
+}
+.str:hover , .con:hover{
+    color: red;
+}
+.end{
+    background-color: #161a1d;
+}
+.end p{
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.end a{
+    text-decoration: none;
+    color: white;
+    padding-left: 380px;
+    line-height: 130px;
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.end a:hover{
+    color: red;
+}

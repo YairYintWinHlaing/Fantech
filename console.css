@@ -1,0 +1,305 @@
+*{
+    margin: 0 auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #161a1d;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+.topnav .login-container {
+    float: right;
+} 
+.topnav input[type=text], .topnav input[type=password] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+} 
+.topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+} 
+.topnav .login-container button:hover {
+    background: #ccc;
+}
+.search input[type=text] {
+    width: 130px;
+    height: 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;    
+}
+.search{
+    background-color: gray;
+}
+.search input[type=text]:focus {
+    width: 100%;
+}
+.tab ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: #161a1d;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+}
+.tab ul li{
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.tab ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+}
+.tab ul li a:hover{
+    background-color: red;
+}
+.tab .active{
+    background-color: red;
+}
+.welcome{
+    background-image: url(console/1.jpg);
+    height: 650px;
+}
+.welcome h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    padding-top: 300px;
+}
+.gear{
+    background-color: #161a1d;
+}
+.gp11{
+    background-image: url(console/gp11.jpg);
+}
+.mh86{
+    background-image: url(console/mh86.jpg);
+}
+.gp11 , .mh86{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.gear h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.gp11 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.gp11 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.gp11 a:hover{
+    color: red;
+}
+.mh86 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.mh86 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.mh86 a:hover{
+    color: red;
+}
+.case{
+    background-color: #161a1d;
+}
+.cg73{
+    background-image: url(console/cg73.jpg);
+}
+.x7{
+    background-image: url(console/x7.jpg);
+}
+.cg73 , .x7{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.case h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.cg73 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.cg73 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.cg73 a:hover{
+    color: red;
+}
+.x7 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.x7 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.x7 a:hover{
+    color: red;
+}
+.app{
+    background-color: #161a1d;
+}
+.jes{
+    background-image: url(console/jes.jpg);
+}
+.polo{
+    background-image: url(console/polo.jpg);
+}
+.jes , .polo{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.app h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.jes p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.jes a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.jes a:hover{
+    color: red;
+}
+.polo p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.polo a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.polo a:hover{
+    color: red;
+}
+.end{
+    background-color: #161a1d;
+}
+.end p{
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.end a{
+    text-decoration: none;
+    color: white;
+    padding-left: 380px;
+    line-height: 130px;
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.end a:hover{
+    color: red;
+}

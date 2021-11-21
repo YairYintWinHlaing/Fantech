@@ -1,0 +1,305 @@
+*{
+    margin: 0 auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #161a1d;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+.topnav .login-container {
+    float: right;
+} 
+.topnav input[type=text], .topnav input[type=password] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+} 
+.topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+} 
+.topnav .login-container button:hover {
+    background: #ccc;
+}
+.search input[type=text] {
+    width: 130px;
+    height: 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;    
+}
+.search{
+    background-color: gray;
+}
+.search input[type=text]:focus {
+    width: 100%;
+}
+.tab ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: #161a1d;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+}
+.tab ul li{
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.tab ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+}
+.tab ul li a:hover{
+    background-color: red;
+}
+.tab .active{
+    background-color: red;
+}
+.welcome{
+    background-image: url(audio/1.jpg);
+    height: 650px;
+}
+.welcome h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    padding-top: 300px;
+}
+.headset{
+    background-color: #161a1d;
+}
+.hg15{
+    background-image: url(audio/hg15.jpg);
+}
+.hg21{
+    background-image: url(audio/hg21.jpg);
+}
+.hg15 , .hg21{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.headset h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.hg15 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.hg15 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.hg15 a:hover{
+    color: red;
+}
+.hg21 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.hg21 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.hg21 a:hover{
+    color: red;
+}
+.ear{
+    background-color: #161a1d;
+}
+.eg2{
+    background-image: url(audio/eg2.jpg);
+}
+.tx1{
+    background-image: url(audio/tx1.jpg);
+}
+.eg2 , .tx1{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.ear h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.eg2 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.eg2 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.eg2 a:hover{
+    color: red;
+}
+.tx1 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.tx1 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.tx1 a:hover{
+    color: red;
+}
+.speaker{
+    background-color: #161a1d;
+}
+.bs150{
+    background-image: url(audio/bs150.jpg);
+}
+.gs204{
+    background-image: url(audio/gs204.jpg);
+}
+.bs150 , .gs204{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.speaker h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.bs150 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.bs150 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.bs150 a:hover{
+    color: red;
+}
+.gs204 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.gs204 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.gs204 a:hover{
+    color: red;
+}
+.end{
+    background-color: #161a1d;
+}
+.end p{
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.end a{
+    text-decoration: none;
+    color: white;
+    padding-left: 380px;
+    line-height: 130px;
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.end a:hover{
+    color: red;
+}

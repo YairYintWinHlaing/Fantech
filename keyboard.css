@@ -1,0 +1,305 @@
+*{
+    margin: 0 auto;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #161a1d;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+.topnav .login-container {
+    float: right;
+} 
+.topnav input[type=text], .topnav input[type=password] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+} 
+.topnav .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+} 
+.topnav .login-container button:hover {
+    background: #ccc;
+}
+.search input[type=text] {
+    width: 130px;
+    height: 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;    
+}
+.search{
+    background-color: gray;
+}
+.search input[type=text]:focus {
+    width: 100%;
+}
+.tab ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: #161a1d;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+}
+.tab ul li{
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.tab ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+}
+.tab ul li a:hover{
+    background-color: red;
+}
+.tab .active{
+    background-color: red;
+}
+.welcome{
+    background-image: url(keyboard/1.png);
+    height: 650px;
+}
+.welcome h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    padding-top: 300px;
+}
+.membrane{
+    background-color: #161a1d;
+}
+.k511{
+    background-image: url(keyboard/k511.jpg);
+}
+.k612{
+    background-image: url(keyboard/k612.jpg);
+}
+.k511 , .k612{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.membrane h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.k511 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.k511 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.k511 a:hover{
+    color: red;
+}
+.k612 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.k612 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.k612 a:hover{
+    color: red;
+}
+.mechanical{
+    background-color: #161a1d;
+}
+.mk852{
+    background-image: url(keyboard/mk852.jpg);
+}
+.mk853{
+    background-image: url(keyboard/mk853.jpg);
+}
+.mk852 , .mk853{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.mechanical h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.mk852 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.mk852 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.mk852 a:hover{
+    color: red;
+}
+.mk853 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.mk853 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.mk853 a:hover{
+    color: red;
+}
+.optical{
+    background-color: #161a1d;
+}
+.mk882{
+    background-image: url(keyboard/mk882.jpg);
+}
+.mk884{
+    background-image: url(keyboard/mk884.jpg);
+}
+.mk882 , .mk884{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+.optical h1{
+  
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+.mk882 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.mk882 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.mk882 a:hover{
+    color: red;
+}
+.mk884 p{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    padding-left: 120px;
+    padding-top: 50px;
+    display: inline-block;
+}
+.mk884 a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 35px;
+    font-family: 'Alfa Slab One', cursive;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+.mk884 a:hover{
+    color: red;
+}
+.end{
+    background-color: #161a1d;
+}
+.end p{
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.end a{
+    text-decoration: none;
+    color: white;
+    padding-left: 380px;
+    line-height: 130px;
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.end a:hover{
+    color: red;
+}
